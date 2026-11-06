@@ -1,0 +1,21 @@
+BitMap einlesen -> 
+
+SHM1[RGB] -> // MANAGEMENT PROZESS
+ zwischen den Prozessen QUEUE
+GRAYSCALE  (Wie lange?) // PROZESS 1
+ zwischen den Prozessen QUEUE
+in anderes SHM2[GRAYSCALE] speichern // MANAGEMENT
+
+
+mehrere SHARDMEM fuer jeden Prozess 
+
+
+Zuerst
+  - GRAYSCALE (invertieren)
+  - BLUR
+  - SUB/ DODGE (DIVISION)
+
+Dann StarCOUNT
+-> struct x y radius
+
+wieder in bitmap speichern
